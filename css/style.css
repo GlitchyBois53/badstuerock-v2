@@ -349,6 +349,19 @@ header div:nth-child(2) p {
   color: var(--black);
 }
 
+.year-animation {
+  cursor: pointer;
+}
+
+.year-animation img {
+  transition: 0.5s ease all;
+}
+
+.year-animation:hover img {
+  transform: rotate(135deg);
+  transition: 0.5s ease all;
+}
+
 /*-------- Turning the arrow - after '1973' - 180 degrees --------*/
 
 header div:nth-child(2) img {
@@ -1837,9 +1850,15 @@ header div:nth-child(2) img {
     display: flex;
     margin-top: var(--md-spacing);
     margin-right: 45px;
-    margin-bottom: var(--lg-spacing);
+    margin-bottom: var(--md-spacing);
     position: relative;
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 710px) {
+    .back-to-top p {
+      margin-bottom: var(--lg-spacing);
+    }
   }
 
   .back-to-top p a {
@@ -2625,3 +2644,24 @@ header div:nth-child(2) img {
     display: block;
   }
 
+/* ABOUT US */
+
+.history-wrapper {
+  border-bottom: 3px var(--black) solid;
+}
+
+.worker-wrapper {
+  border-bottom: 3px var(--black) solid;
+}
+
+.some-wrapper {
+  border-bottom: 3px var(--black) solid;
+}
+
+.maps-wrapper {
+  border-bottom: 3px var(--black) solid;
+}
+
+.contact-wrapper {
+  border-bottom: 3px var(--black) solid;
+}
