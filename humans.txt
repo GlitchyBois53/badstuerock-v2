@@ -1,0 +1,26 @@
+/* TEAM */
+
+                            
+Contributors: Dennis Kristian Niclasen Russell, Frederik Overgaard Barbre, Lean Hansen
+                          
+Contact: eaadknr@students.eaaa.dk, eaafob@students.eaaa.dk, eaalkh@students.eaaa.dk
+
+Site: https://www.badstuerock.frederikbarbre.dk
+                         
+Location: Aarhus, Denmark.
+					
+
+/* THANKS */
+
+
+Name: Bjoern Lyden, owner of Badstuerock
+
+                            
+/* SITE */
+
+
+Last update: 2023/05/23
+                            
+Standards: HTML5, CSS3, JavaScript
+                            
+Software: Visual Studio Code, Github

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Badstuerock">
+    <meta property="og:site_name" content="Pladebutik">
+    <meta property="og:description" content="Pladebutik i Latinerkvarteret">
+    <meta name="description" content="Pladebutik i Latinerkvarteret">
+    <meta property="og:image" content="img/logo.svg">
+    <meta name="keywords" content="forside, åbningstider, cd, kassette, vinyler, shop, Aarhus, pladebutik, dansk">
+    <meta name="author" content="Dennis Russell, Frederik Barbre, Lean Hansen">
+    <meta name="geo.placename" content="Aarhus">
+    <meta property="og:image" content="img/logo.svg">
+    <meta property="og:url" content="https://badstuerock.frederikbarbre.dk/">
+    <meta property="og:locale" content="da_dk">
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/frontpage.js" defer></script>
+    <script src="js/frontpageGenerator.js" type="module"></script>
+    <title>BadstueRock</title>
+</head>
+
+<!-- Body Start -->
+
+<body>
+
+    <!-- Outer Wrapper Start -->
+
+    <div class="outer-wrapper" id="top">
+
+        <!-- Inner Wrapper Start -->
+
+        <div class="inner-wrapper">
+
+            <!-- Header Start -->
+
+            <header>
+
+                <!-- Header div 1 Start -->
+
+                <div>
+                    <a href="index.html"><img src="img/logo.svg" alt="badstue-logo"></a>
+                    <h1 onclick="window.location.href = 'index.html'">BADSTUE<span>ROCK</span></h1>
+                </div>
+
+                <!-- Header div 1 End -->
+
+                <!-- Header div 2 Start -->
+
+                <div>
+                    <p>1973</p>
+                    <img src="img/arrow-plain.svg" alt="arrow">
+                </div>
+
+                <!-- Header div 2 End -->
+
+            </header>
+
+            <!-- Header End -->
+
+            <!-- Hero Start -->
+
+            <div class="hero">
+                <img src="img/badstue-hero-alt.jpg" alt="badstue-hero">
+                <div class="hero-text">
+                    <article>
+                        <h2>BADSTUEGADE 22</h2>
+                        <h3>8000 AARHUS C</h3>
+                        <h3>DENMARK</h3>
+                    </article> 
+                    <div class="badge">
+                        <div class="text-circle"></div>
+                        <h3>ROCK</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero End -->
+
+            <!-- New Releases Start -->
+
+            <div class="m-scroll box-65 letter-height">
+                <div class="m-scroll__title">
+                  <div class="scroll-backward scroll-speed-medium letter-gap">
+                    <h2>
+                       NYE RELEASES <span>NYE RELEASES</span> NYE RELEASES <span>NYE RELEASES</span> NYE RELEASES <span>NYE RELEASES</span>
+                    </h2>
+                    <h2>
+                        NYE RELEASES <span>NYE RELEASES</span> NYE RELEASES <span>NYE RELEASES</span> NYE RELEASES <span>NYE RELEASES</span>
+                    </h2>
+                  </div>
+                </div>
+            </div>
+
+            <div class="releases-wrapper">
+                <div class="releases-inner-wrapper" >
+                    <div class="releases" id="releases">
+                        
+                    </div>
+                    <!-- Show all Icon Start -->
+    
+                    <div class="show-all release-height">
+                        <div class="show-all-btn" onclick="window.location.href = 'inventory.html'">
+                            <img src="img/arrow-diagonal.svg" alt="arrow">
+                        </div>
+                        <h5>VIS ALLE</h5>
+                    </div>
+    
+                    <!-- Show all Icon End -->
+                </div>
+    
+                <div class="m-scroll box-off arrow-height">
+                    <div class="m-scroll__title">
+                      <div class="scroll-forward scroll-speed-medium arrow-gap">
+                        <div class="flex">
+                            <img class="arrow-forward" src="img/arrow-forward.png" alt="arrow-forward">
+                            <img class="arrow-forward" src="img/arrow-forward.png" alt="arrow-forward">
+                        </div>
+                        <div class="flex">
+                            <img class="arrow-forward" src="img/arrow-forward.png" alt="arrow-forward">
+                            <img class="arrow-forward" src="img/arrow-forward.png" alt="arrow-forward">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New Releases End -->
+
+            <!-- Recommendations Start -->
+
+            <div class="m-scroll box-55 letter-height">
+                <div class="m-scroll__title">
+                  <div class="scroll-backward scroll-speed-medium letter-gap">
+                    <h2>
+                       BADSTUE <span>ANBEFALER</span> BADSTUE <span>ANBEFALER</span> BADSTUE <span>ANBEFALER</span> BADSTUE <span>ANBEFALER</span> BADSTUE <span>ANBEFALER</span> BADSTUE <span>ANBEFALER</span>
+                    </h2>
+                    <h2>
+                        BADSTUE <span>ANBEFALER</span> BADSTUE <span>ANBEFALER</span> BADSTUE <span>ANBEFALER</span> BADSTUE <span>ANBEFALER</span> BADSTUE <span>ANBEFALER</span> BADSTUE <span>ANBEFALER</span>
+                    </h2>
+                  </div>
+                </div>
+            </div>
+
+            <div class="recommend-wrapper">
+                <div class="recommend">
+                    <div class="recommend-inner">
+                        <div>
+                            <div class="play-btn paused">
+                                <div>
+                                    <img onclick="audioPlayer()" id="play" src="img/play.svg" alt="play-btn">
+                                    <img onclick="audioPlayer()" id="pause" class="audio-not-active" src="img/pause.svg" alt="pause-btn">
+                                    <audio src="audio/local-hero.mp3" id="audio"></audio>
+                                </div>
+                            </div>
+                            <img src="img/mark-knopfler.png" alt="local hero mark knopfler">
+                            <div id="progress-bar"></div>
+                        </div>
+                        <img class="local-hero" src="img/local-hero-text.png" alt="local hero text">
+                        <article>
+                            <img class="hidden local-hero-mobile" src="img/local-hero-text-horizontal.png" alt="local hero text">
+                            <h3>MARK KNOPFLER</h3>
+                            <h4>ROCK</h4>
+                            <p>Guitaristen og vokalisten fra Dire Straits, Mark Knopfler, er den primære arbejdskraft og tanke bag dette eventyrlige soundtrack til filmen 'Local Hero', der bl.a. også har Gerry Rafferty som optrædende på vokal.
+                                <br><br>
+                                Pladen er 'half speed mastered' af det kendte Abbey Road Studios. Resultatet er krystalklare højfrekvenser og generelt bedre kvalitet end sædvanlige mastering-teknikker. 
+                                <br><br>
+                                Med pladen følger der nemlig et 'mastering certificate' fra Abbey Road's.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recommendations End -->
+
+            <!-- Articles Start -->
+
+            <div class="m-scroll box-15 letter-height">
+                <div class="m-scroll__title">
+                  <div class="scroll-backward scroll-speed-medium letter-gap">
+                    <h2>
+                       ARTIKLER <span>ARTIKLER</span> ARTIKLER <span>ARTIKLER</span> ARTIKLER <span>ARTIKLER</span> ARTIKLER <span>ARTIKLER</span>
+                    </h2>
+                    <h2>
+                        ARTIKLER <span>ARTIKLER</span> ARTIKLER <span>ARTIKLER</span> ARTIKLER <span>ARTIKLER</span> ARTIKLER <span>ARTIKLER</span>
+                    </h2>
+                  </div>
+                </div>
+            </div>
+
+            <div class="articles-wrapper">
+                <div class="articles-inner-wrapper">
+                    <div class="articles" id="articles">
+                    </div>
+                    <div class="show-all article-height">
+                        <div class="show-all-btn">
+                            <img src="img/arrow-diagonal.svg" alt="arrow">
+                        </div>
+                        <h5>VIS ALLE</h5>
+                    </div>
+                </div>
+
+                <div class="m-scroll box-off arrow-height">
+                    <div class="m-scroll__title">
+                      <div class="scroll-forward scroll-speed-medium arrow-gap">
+                        <div class="flex">
+                            <img class="arrow-forward" src="img/arrow-forward.png" alt="arrow-forward">
+                            <img class="arrow-forward" src="img/arrow-forward.png" alt="arrow-forward">
+                        </div>
+                        <div class="flex">
+                            <img class="arrow-forward" src="img/arrow-forward.png" alt="arrow-forward">
+                            <img class="arrow-forward" src="img/arrow-forward.png" alt="arrow-forward">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- Articles End -->
+
+            <!-- Inspiration Start -->
+
+            <div class="m-scroll box-25 letter-height">
+                <div class="m-scroll__title">
+                  <div class="scroll-backward scroll-speed-slow letter-gap">
+                    <h2>
+                        KOM NED OG BLIV INSPIRERET <span>KOM NED OG BLIV INSPIRERET</span> KOM NED OG BLIV INSPIRERET <span>KOM NED OG BLIV INSPIRERET</span> KOM NED OG BLIV INSPIRERET <span>KOM NED OG BLIV INSPIRERET</span>
+                    </h2>
+                    <h2>
+                        KOM NED OG BLIV INSPIRERET <span>KOM NED OG BLIV INSPIRERET</span> KOM NED OG BLIV INSPIRERET <span>KOM NED OG BLIV INSPIRERET</span> KOM NED OG BLIV INSPIRERET <span>KOM NED OG BLIV INSPIRERET</span>
+                    </h2>
+                  </div>
+                </div>
+            </div>
+
+
+            <div class="covers" id="covers">
+                <div class="m-scroll box-off album-height">
+                    <div class="m-scroll__title">
+                      <div class="scroll-forward scroll-speed-slow album-gap">
+                        <div class="covers1"></div>
+                        <div class="covers2"></div>
+                      </div>
+                    </div>
+                </div>
+                
+                <div class="m-scroll box-off album-height">
+                    <div class="m-scroll__title">
+                      <div class="scroll-backward scroll-speed-slow album-gap">
+                        <div class="covers3"></div>
+                        <div class="covers4"></div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="m-scroll box-off album-height">
+                    <div class="m-scroll__title">
+                      <div class="scroll-forward scroll-speed-slow album-gap">
+                        <div class="covers5"></div>
+                        <div class="covers6"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Inspiration End -->
+
+            <!-- Anmeldelser Start -->
+
+            <div class="m-scroll box-85 letter-height">
+                <div class="m-scroll__title">
+                  <div class="scroll-backward scroll-speed-medium letter-gap">
+                    <h2>
+                        ANMELDELSER <span>ANMELDELSER</span> ANMELDELSER <span>ANMELDELSER</span> ANMELDELSER <span>ANMELDELSER</span>
+                    </h2>
+                    <h2>
+                        ANMELDELSER <span>ANMELDELSER</span> ANMELDELSER <span>ANMELDELSER</span> ANMELDELSER <span>ANMELDELSER</span>
+                    </h2>
+                  </div>
+                </div>
+            </div>
+
+            <div class="testimonials" id="testimonials">
+
+            </div>
+
+            <!-- Anmeldelser End -->
+
+            <div class="back-to-top">
+                <p>
+                    <a href="#top">BACK TO TOP</a>
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Inner Wrapper End -->
+
+        <!-- Aside / Menu Start -->
+
+        <aside class="menu-desktop">
+
+            <!-- Nav-menu / Nav-wrapper Start-->
+
+            <div id="nav-menu" class="nav-wrapper nav-neutral">
+
+                <!-- Nav Element Start -->
+
+                <nav>
+
+                    <!-- Menu bar right side of screen Start -->
+
+                    <div class="desktop-btn"  onclick="navToggle()">
+                        <h2>MENU</h2>
+                        <img id=menu-arrow src="img/arrow-plain.svg" alt="menu-arrow">
+                    </div>
+
+                    <!-- Menu bar right side of screen End -->
+
+                    <!-- Nav menu content Start -->
+
+                    <div class="nav-content" id="nav-content">
+
+                        <!-- Close Button for the Menu when width is Below 710px Start -->
+
+                        <div class="close-btn" onclick="mobileNavToggle()">
+                            <img src="img/close.png" alt="close-btn">
+                        </div>
+
+                        <!-- Close Button for the Menu when width is Below 710px End -->
+
+                        <!-- Container for Menu / Nav Links Start -->
+
+                        <ul class="nav-links">
+                            <li><a href="inventory.html"><strong></strong>INVENTAR<span></span></a></li>
+                            <li><a href="#"><strong></strong>UPCOMING<span></span></a></li>
+                            <li><a href="#"><strong></strong>ARTIKLER<span></span></a></li>
+                            <li><a href="#"><strong></strong>OM OS<span></span></a></li>
+                        </ul>
+
+                        <!-- Container for Menu / Nav Links End -->
+
+                        <!-- Container for Opening Hours in Menu Start -->
+
+                        <ul class="opening-hours">
+                            <li>MAN - TOR<br><span>11:00-17:30</span></li>
+                            <li>FRE<br><span>11:00-18:00</span></li>
+                            <li>LØR<br><span>10:30-15:30</span></li>
+                            <li>SØN<br><span>LUKKET</span></li>
+                        </ul>
+
+                        <!-- Container for Opening Hours in Menu End -->
+
+                        <!-- Contact Container Start -->
+
+                        <div class="contact">
+
+                            <!-- Phone Number And Email Container Start -->
+
+                            <ul>
+                                <li>info@badstuerock.dk</li>
+                                <li>+45 86 19 76 74</li>
+                            </ul>
+
+                            <!-- Phone Number And Email Container End -->
+
+                            <!-- SoMe Icons Container Start -->
+
+                            <div class="some">
+                                <img src="img/instagram.png" alt="instagram-icon" onclick="window.open('https://www.instagram.com/badstuerock/?hl=da', '_blank')">
+                                <img src="img/facebook.png" alt="facebook-icon" onclick="window.open('https://www.facebook.com/badstuerock/?locale=da_DK', '_blank')">
+                            </div>
+
+                            <!-- SoMe Icons Container End -->
+
+                        </div>
+
+                        <!-- Contact Container End -->
+
+                    </div>
+
+                    <!-- Nav menu content End -->
+                    
+                </nav>
+
+                <!-- Nev Element End -->
+
+            </div>
+            
+            
+            <!-- Nav-menu End -->
+
+        </aside>
+
+        <!-- Menu - Mobile Start -->
+
+        <div class="menu-mobile">
+            <div class="menu-btn mobile-not-active" id="mobile-menu" onclick="mobileNavToggle()">
+                <img src="img/arrow-plain.svg" alt="arrow">
+                <h2>MENU</h2>
+            </div>
+        </div>
+
+        <!-- Menu - Mobile End -->
+
+        <!-- Aside / Menu End -->
+
+    </div>
+
+    <!-- Outer Wrapper End -->
+
+</body>
+
+<!-- Body End -->
+
+</html>

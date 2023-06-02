@@ -1,0 +1,55 @@
+#Vores sitemap.xml ligger i vores root sammen med index.html
+#ved at give de passerende crawlers lokationen paa vores sitemap vil de se hele vores site i Ã©n fil og indeksere den
+#vores sitemap boer/kan vi uploade til google search console for bedre SEO-maessig effekt
+
+sitemap: http://www.badstuerock.frederikbarbre.dk/sitemap.xml
+
+#user-agent er den crawler som vi skriver en regel for.
+#det kunne vaere googlebot, bing, duckduckgo, etc
+#vi bruger en asterisk som gaelder gor samtlige crawlers, ligesom den globale selector i css
+
+user-agent: *
+
+#disallow er et direktiv vi udstikker for de forskellige crawlers
+#et tomt 'disallow: ' direktiv = intet er IKKE tilladt for crawlers. de maa derfor crawle alt
+
+disallow:
+
+#MMMMMMMMMMMMMMMMMMMMMMMMWX0xo:,...       ...,:lx0XWMMMMMMMMMMMMMMMMMMMMMMMM
+#MMMMMMMMMMMMMMMMMMMMNKkoc,..........',,;,,'......,cokKNMMMMMMMMMMMMMMMMMMMM
+#MMMMMMMMMMMMMMMMWKkl,....',;:cloodddk0XWNNXK0Oxoc;'...,lxKWMMMMMMMMMMMMMMMM
+#MMMMMMMMMMMMMWKx:....,:lodxxxxxxxxxxOKNMMMMMMMMMMWXOdc,...:xKWMMMMMMMMMMMMM
+#MMMMMMMMMMMNOl'...;ldxxxxxxxxxxxxxxxOKNMMMMMMMMMMMMMMWXOo;..'lONMMMMMMMMMMM
+#MMMMMMMMMNk:...;ldxxxxxxxxxxxxxxxxxxOKNMMMMMMMMMMMMMMMMMMNOl'..:kNMMMMMMMMM
+#MMMMMMMWO:...:oxxxxxxxxxxxxxxxxxxxxxOKNMMMMMMMMMMMMMMMMMMMMWKd,..:OWMMMMMMM
+#MMMMMWKl. .:oxxxxxxxxxxxxxxxxxxxxxxxOKNMMMMMMMMMMMMMMMMMMMMMMWXd'..lKMMMMMM
+#MMMMWO,..,lxxxxxxxxxxxxxxxxxxxxxxxxxOKNMMMMMMMMMMMMMMMMMMMMMMMMW0c..,OWMMMM
+#MMMNx. .:dxxxxxxxxxxxxxxxxxxxxxxxxxxOKNMMMMMMMMMMMMMMMMMMMMMMMMMMNx' .xNMMM
+#MMNd. .cxxxxxxxxxxxxxxxxxxxxxxxxxxxxOXNMMMMMMMMMMMMMMMMMMMMMMMMMMMWO, .dNMM
+#MWd. .lxxxxxxxxxxxxxxxxxxkOOOOOOOOOOOOOO0KXWWMMMMMMMMMMMMMMMMMMMMMMWO, .dWM
+#Wk' .cxxxxxxxxxxxxxxxxxxxONWWWWWWWWWOo,...';lONMMMMMMMMMMMMMMMMMMMMMWO' 'kW
+#K; .:dxxxxxxxxxxxxxxxxxxxONMMMMMMWWWOo,      .cKMMMMMMMMMMMMMMMMMMMMMWd. :K
+#d. 'oxxxxxxxxxxxxxxxxxxxxONMMMMNK000OOkd:.    .cNMMMMMMMMMMMMMMMMMMMMMX: .d
+#; .:xxxxxxxxxxxxxxxxxxxxxONMMMMXOxxxOKNMNo.    ;KMMMMMMMMMMMMMMMMMMMMMWx. ;
+#. .lxxxxxxxxxxxxxxxxxxxxxONMMMMNOxxxOKNMNo.   .lNMMMMMMMMMMMMMMMMMMMMMM0, .
+#. ,dxxxxxxxxxxxxxxxxxxxxxONMMMMNKOOOOOkd:.  .'oXMMMMMMMMMMMMMMMMMMMMMMMXc .
+#  ,dxxxxxxxxxxxxxxxxxxxxxONMMMMMWWWWOl,   .'l0WMMMMMMMMMMMMMMMMMMMMMMMMNl. 
+#  ,dxxxxxxxxxxxxxxxxxxxxxONMMMMWNNNNOd:..  ..,l0WMMMMMMMMMMMMMMMMMMMMMMNl. 
+#. ,dxxxxxxxxxxxxxxxxxxxxxONMMMMNOkkkO0KX0o'    'xWMMMMMMMMMMMMMMMMMMMMMXc .
+#. .lxxxxxxxxxxxxxxxxxxxxxONMMMMXOxxxOKNMMWd.    ;KMMMMMMMMMMMMMMMMMMMMM0, .
+#; .:xxxxxxxxxxxxxxxxxxxxxONMMMMXOxxxOKNMMNo.    ,0MMMMMMMMMMMMMMMMMMMMWx. ;
+#d. 'oxxxxxxxxxxxxxxxxxxxxONMMMMNK000OOkdo;.    .lNMMMMMMMMMMMMMMMMMMMMX: .d
+#K; .:dxxxxxxxxxxxxxxxxxxxONMMMMMMMMMOl,       .oXMMMMMMMMMMMMMMMMMMMMWd. ;K
+#Wk' .cxxxxxxxxxxxxxxxxxxxONWWWWWWWWW0o,....,cdKWMMMMMMMMMMMMMMMMMMMMWk' 'kW
+#MNd. .lxxxxxxxxxxxxxxxxxxkOOOOOOOOOOOOOO00XNWMMMMMMMMMMMMMMMMMMMMMMWO, .dWM
+#MMNd. .cxxxxxxxxxxxxxxxxxxxxxxxxxxxxOKNMMMMMMMMMMMMMMMMMMMMMMMMMMMWO, .dNMM
+#MMMNd. .:dxxxxxxxxxxxxxxxxxxxxxxxxxxOKNMMMMMMMMMMMMMMMMMMMMMMMMMMNx' .dNMMM
+#MMMMWO,..,lxxxxxxxxxxxxxxxxxxxxxxxxxOKNMMMMMMMMMMMMMMMMMMMMMMMMW0c..,OWMMMM
+#MMMMMMKl. .;oxxxxxxxxxxxxxxxxxxxxxxxOKNMMMMMMMMMMMMMMMMMMMMMMMXd'..lKMMMMMM
+#MMMMMMMWO:...:oxxxxxxxxxxxxxxxxxxxxxOKNMMMMMMMMMMMMMMMMMMMMWKd,..:OWMMMMMMM
+#MMMMMMMMMNk:...;ldxxxxxxxxxxxxxxxxxxOKNMMMMMMMMMMMMMMMMMMNOl'..:kNMMMMMMMMM
+#MMMMMMMMMMMNOc'...;ldxxxxxxxxxxxxxxxOKNMMMMMMMMMMMMMMWNOo;..'cONMMMMMMMMMMM
+#MMMMMMMMMMMMMWKx:....,:lodxxxxxxxxxxOKNMMMMMMMMMMWXOdc,...:xKWMMMMMMMMMMMMM
+#MMMMMMMMMMMMMMMMWKxl,....',;ccloddddk0XWNNXK0Oxoc;'...,lxKWMMMMMMMMMMMMMMMM
+#MMMMMMMMMMMMMMMMMMMMNKkoc,..........',,;,,'......,cokKNMMMMMMMMMMMMMMMMMMMM
+#MMMMMMMMMMMMMMMMMMMMMMMMWX0xo:,....      ...,:ox0XWMMMMMMMMMMMMMMMMMMMMMMMM
