@@ -27,12 +27,25 @@
     <meta property="og:locale" content="da_dk" />
     <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon" />
     <title>Badstuerock - Om Os</title>
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/main.js" defer></script>
     <script src="js/aboutUsGenerator.js" type="module"></script>
     <script src="js/mapbox.js" defer></script>
+    <script src="js/mail.js" defer></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("EVRDRYM-Ts7lfSTzM");
+      })();
+    </script>
   </head>
   <body>
     <div class="outer-wrapper" id="top">
@@ -209,9 +222,7 @@
           </div>
 
           <div class="some-wrapper">
-            <div class="some-container" id="some-container">
-
-            </div>
+            <div class="some-container" id="some-container"></div>
 
             <div class="m-scroll box-off arrow-height">
               <div class="m-scroll__title">
@@ -266,9 +277,9 @@
 
           <div class="maps-wrapper">
             <!-- MAPS CONTENT HERE -->
-			  <div class="map-inner-wrapper">
-			  	  <div id="map"></div>
-			  </div>
+            <div class="map-inner-wrapper">
+              <div id="map"></div>
+            </div>
           </div>
 
           <!-- CONTACT US -->
@@ -293,7 +304,106 @@
           </div>
 
           <div class="contact-wrapper">
-            <!-- CONTACT CONTENT HERE -->
+            <div class="contact-inner-wrapper">
+              <div class="contact-container">
+                <form class="contact-form">
+                  <div class="contact-input">
+                    <div>
+                      <div class="label-container">
+                        <label class="contact-name-label" for="name"
+                          >FULDE NAVN</label
+                        >
+                        <p class="error-message" id="error-name">Error</p>
+                      </div>
+                      <span>
+                        <input
+                          class="contact-name-input"
+                          type="text"
+                          name="name"
+                          placeholder="Fulde navn"
+                          id="name"
+                      /></span>
+                    </div>
+
+                    <div>
+                      <div class="label-container">
+                        <label class="contact-email-label" for="email"
+                          >EMAIL</label
+                        >
+                        <p class="error-message" id="error-email">Email must include: </p>
+                      </div>
+                      <span
+                        ><input
+                          class="contact-email-input"
+                          type="email"
+                          name="email"
+                          placeholder="Email"
+                          id="email"
+                      /></span>
+                    </div>
+
+                    <div>
+                      <div class="label-container">
+                        <label class="contact-message-label" for="message"
+                          >BESKED</label
+                        >
+                        <p class="error-message" id="error-textarea">Error</p>
+                      </div>
+
+                      <span>
+                        <textarea
+                          class="contact-message-textarea"
+                          name="message"
+                          id="message"
+                          cols="30"
+                          rows="10"
+                          placeholder='"Så spørg for satan!" - Bertel Haarder, 2010'
+                          maxlength="300"
+                        ></textarea>
+                        <div class="word-count-container">
+                          <p class="word-count" id="word-count">0/300</p>
+                        </div>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="contact-button">
+                    <div>
+                      <div class="contact-text">
+                        <h3>KONTAKT OS</h3>
+                        <p>
+                          SKRIV TIL OS HVIS DU HAR ET SPØRGSMÅL DU GERNE VIL
+                          HAVE SVAR PÅ. DET KAN VÆRE ALT FRA AT HØRE NÆRMERE OM
+                          EN SPECIFIK PLADE ELLER NOGET HELT ANDET.
+                        </p>
+                      </div>
+                    </div>
+                    <span>
+                      <button
+                        type="button"
+                        class="contact-btn"
+                        onclick="sendMail()"
+                      >
+                        SEND<strong></strong>
+                      </button>
+                    </span>
+                  </div>
+                </form>
+                <div class="success-window" id="success-window">
+                  <div class="success-container contact-button">
+                    <p>BESKEDEN ER SENDT. VI VENDER TILBAGE HURTIGST MULIGT.</p>
+                    <span>
+                      <button
+                        type="button"
+                        class="contact-btn"
+                        onclick="closesuccess()"
+                      >
+                        OK<strong></strong>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div class="back-to-top">

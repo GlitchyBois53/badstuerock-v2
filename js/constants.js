@@ -1345,7 +1345,7 @@ export const inventories = [
     cdPrice: "99",
     cassettePrice: "139",
     description:
-      'Folkeklubben er en relevant trio i 2023 med albummet "Vi er mere end en klub". Inspireret af fransk rap, svensk elektropop og John Coltrane, leverer de deres mest dynamiske og ambitiøse plade til dato. Succesfuldt orkester med guld- og platinplader.',
+      'Folkeklubben er en relevant trio i 2023 med albummet "Vi er mere end en klub". Inspireret af fransk rap, svensk elektropop og John Coltrane, leverer de deres mest dynamiske og ambitiøse plade til dato. successfuldt orkester med guld- og platinplader.',
     path: "mere-end-en-klub",
     scrollSpeed: "scroll-speed-slow",
   },
@@ -1442,23 +1442,23 @@ export const inventories = [
 export const history = [
   {
     image: "mick-indeholder-intet.png",
-    title: "Plus musica continere non possum.",
+    title: "Startede som punk-distributør",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius iure ex repudiandae veritatis, tempore veniam atque! Unde libero enim consequatur eius, accusamus odio recusandae minima voluptates velit quaerat inventore, natus perspiciatis numquam eaque eos explicabo tempore provident nihil optio ex doloribus ad sequi soluta. Saepe excepturi tempore itaque vel neque voluptatum ad non voluptate nihil?",
-    alttag: "Grundlæggeren af BadstueRock, Mick D'.... I butikken",
+      "Mick D'Astugues åbnede for første gang BadstueRocks døre i 1973. Dengang syntes han, at der, i Aarhus, var et hul i markedet, når det kom til den britiske punkscene. Dog var denne genre ikke den eneste, han distri-buerede. Det var eftersigende reggaetoner fra Pablo Augustus' melotron, der oftest mødte dig, når du trådte ind i butikken.",
+    alttag: "Grundlæggeren af BadstueRock, Mick D'Astugues I butikken",
   },
   {
     image: "runde-bjorn.png",
-    title: "",
+    title: "Björn tog over",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius iure ex repudiandae veritatis, tempore veniam atque! Unde libero enim consequatur eius, accusamus odio recusandae minima voluptates velit quaerat inventore, natus perspiciatis numquam eaque eos explicabo tempore provident nihil optio ex doloribus ad sequi soluta. Saepe excepturi tempore itaque vel neque voluptatum ad non voluptate nihil? Saepe excepturi tempore itaque vel neque.",
+      "Som Mick selv sagde det, kunne han i 2012 ikke indeholde mere musik. Han var mættet og følte, at han sad fast i en ældre tid, og tiden var derfor inde til at give nøglerne videre. Björn havde siden 2003 arbejdet i butikken og var derfor veloplært og den bedste kandidat til at overtage nøglerne. Dette var også tilfældet, og det skulle vise sig at være en god beslutning.",
     alttag: "Nuværende indehaver af BadstueRock, Björn Lydén i butikken",
   },
   {
     image: "facade.png",
-    title: "",
+    title: "Ny visuel identitet",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius iure ex repudiandae veritatis, tempore veniam atque! Unde libero enim consequatur eius, accusamus odio recusandae minima voluptates velit quaerat inventore, natus perspiciatis numquam eaque eos explicabo tempore provident nihil optio ex doloribus ad sequi soluta. Saepe excepturi tempore itaque vel neque voluptatum ad non voluptate nihil? Saepe excepturi tempore itaque vel neque.",
+      "Som det seneste kapitel i BadstueRocks historie, har butikkens visuelle identitet fået et 'overhaul'. Dette gælder logo og især deres digitale tilstedeværelse, hvor vi langt om længe har fået en hjemmeside, der afspejler butikken og fungerer som forlængelse af denne.",
     alttag: "BadstueRocks Facade",
   },
 ];
@@ -1513,6 +1513,11 @@ export const posts = [
   },
   {
     id: "Cn4e5aHs41K",
+    name: "BadstueRock",
+    handle: "badstuerock",
+  },
+  {
+    id: "CfntGF8sM2C",
     name: "BadstueRock",
     handle: "badstuerock",
   },

@@ -8,7 +8,7 @@ for (let story of history) {
             <div class="history-card">
                 <div class="history-image-container"><img class="history-image" src="../img/${story.image}" alt="${story.alttag}"></div>
                 <div class="history-info">
-                    <p class="history-description">${story.description}</p>
+                    <p class="history-description" lang="en">${story.description}</p>
                 </div>
             </div>
         `;
@@ -18,7 +18,7 @@ for (let story of history) {
                 <div class="history-image-container"><img class="history-image" src="../img/${story.image}" alt="${story.alttag}"></div>
                 <div class="history-info">
                     <h3 class="history-title">${story.title}</h3>
-                    <p class="history-description">${story.description}</p>
+                    <p class="history-description" lang="en">${story.description}</p>
                 </div>
             </div>
     `;
@@ -50,6 +50,3 @@ for (let post of posts) {
         </div>
 	`;
 }
-
-
-
