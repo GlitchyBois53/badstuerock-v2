@@ -5,7 +5,7 @@ Contributors: Dennis Kristian Niclasen Russell, Frederik Overgaard Barbre, Lean 
                           
 Contact: eaadknr@students.eaaa.dk, eaafob@students.eaaa.dk, eaalkh@students.eaaa.dk
 
-Site: https://www.badstuerock.frederikbarbre.dk
+Site: https://www.badstuerock.v2.frederikbarbre.dk
                          
 Location: Aarhus, Denmark.
 					
@@ -15,11 +15,13 @@ Location: Aarhus, Denmark.
 
 Name: Bjoern Lyden, owner of Badstuerock
 
+Name: Bertel Haarder, you know why.
+
                             
 /* SITE */
 
 
-Last update: 2023/05/23
+Last update: 2023/06/12
                             
 Standards: HTML5, CSS3, JavaScript
                             

@@ -2,7 +2,7 @@
 #ved at give de passerende crawlers lokationen paa vores sitemap vil de se hele vores site i Ã©n fil og indeksere den
 #vores sitemap boer/kan vi uploade til google search console for bedre SEO-maessig effekt
 
-sitemap: http://www.badstuerock.frederikbarbre.dk/sitemap.xml
+sitemap: http://www.badstuerock.v2.frederikbarbre.dk/sitemap.xml
 
 #user-agent er den crawler som vi skriver en regel for.
 #det kunne vaere googlebot, bing, duckduckgo, etc

@@ -69,7 +69,7 @@ export const articles = [
   {
     image: "slash.png",
     type: "PORTRÆT",
-    artitle: "Husker du Slash? Manden der altid forstod af svinge en spade",
+    artitle: "Husker du Slash? Manden der altid forstod at svinge en spade",
   },
 ];
 
@@ -508,7 +508,7 @@ export const inventories = [
     description:
       '"Heroes" er et ikonisk album udgivet af David Bowie i 1977. Det præsenterer en blanding af kunstrock og elektroniske elementer og indeholder tidløse sange som titelnummeret "Heroes", der udstråler Bowies unikke musikalske vision og legendariske status.',
     path: "heroes",
-    scrollSpeed: "scroll-speed-medium",
+    scrollSpeed: "scroll-speed-slow",
   },
   {
     image: "../img/album-24.png",
@@ -530,7 +530,7 @@ export const inventories = [
     description:
       '"The Doors" er det selvbetitlede debutalbum af The Doors fra 1967. Det introducerer Jim Morrisons intense vokal, Ray Manzareks keyboardmagi og bandets psykedeliske rockstil, der eksperimenterer med mørke og mystiske lyde.',
     path: "the-doors",
-    scrollSpeed: "scroll-speed-medium",
+    scrollSpeed: "scroll-speed-slow",
   },
   {
     image: "../img/album-12.png",
@@ -553,7 +553,7 @@ export const inventories = [
     description:
       '"Visions of a New World" er et album af Lonnie Liston Smith, udgivet i 1975. Det fusionerer jazz, funk og elektroniske elementer og skaber en spirituel og atmosfærisk lydoplevelse fyldt med eksperimentel musikalitet og positive budskaber.',
     path: "visions-of-a-new-world",
-    scrollSpeed: "scroll-speed-extraslow",
+    scrollSpeed: "scroll-speed-2xlslow",
   },
   {
     image: "../img/album-19.png",
@@ -641,7 +641,7 @@ export const inventories = [
     description:
       "Dizzy Mizz Lizzy's selvbetitlede album er et dansk rockmesterværk. Udgivet i 1994 viser det Tim Christensens enestående sangskrivning, eksplosivt guitarspil og smittende melodier, der fanger lytterne med sin dynamiske lyd og efterlader et varigt indtryk.",
     path: "dizzy-mizz-lizzy",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-extraslow",
   },
   {
     image: "../img/album-3.png",
@@ -707,7 +707,7 @@ export const inventories = [
     description:
       '"When We All Fall Asleep, Where Do We Go?" er Billie Eilishs debutalbum fra 2019. Det er en mørk og drømmende rejse fyldt med skæve produktioner, dystre tekster og Eilishs unikke vokal, der udforsker temaer som frygt, kærlighed og ungdommelig angst.',
     path: "when-we-all-fall-asleep-where-do-we-go",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-2xlslow",
   },
   {
     image: "../img/album-6.png",
@@ -729,7 +729,7 @@ export const inventories = [
     description:
       '"6 Feet Beneath the Moon" er debutalbummet fra King Krule, udgivet i 2013. Med sin karakteristiske dybe stemme og en blanding af jazz, punk og indierock skaber han et dystert og stemningsfuldt lydlandskab, der udforsker isolation, tab og ungdommens kompleksiteter.',
     path: "six-feet-beneath-the-moon",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-extraslow",
   },
   {
     image: "../img/album-7.png",
@@ -751,7 +751,7 @@ export const inventories = [
     description:
       '"Norman Fucking Rockwell" er Lana Del Reys sjette studiealbum fra 2019. Med sin drømmende og introspektive lyd samt poetiske tekster skaber hun et magisk værk, der udforsker kærlighed, tab og Amerikas kulturelle landskab.',
     path: "norman-fucking-rockwell",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-extraslow",
   },
   {
     image: "../img/album-8.png",
@@ -839,7 +839,7 @@ export const inventories = [
     description:
       'Alexander O´Neals selvbetitlede album er en tidløs R&B-klassiker. Udgivet i 1985 viser det hans bløde vokaler og sjælfulde levering og leverer hits som "If You Were Here Tonight" og "Criticize".',
     path: "alexander-o-neal",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-extraslow",
   },
   {
     image: "../img/album-13.png",
@@ -883,7 +883,7 @@ export const inventories = [
     description:
       '"Horses and High Heels" er et fængslende album af Marianne Faithfull, udgivet i 2011. Med sin dragende stemme formidler hun rørende sange, der afspejler hendes livserfaringer med dybde og ægthed.',
     path: "horses-and-high-heels",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-extraslow",
   },
   {
     image: "../img/album-15.png",
@@ -1059,7 +1059,7 @@ export const inventories = [
     description:
       '"Straight Outta Compton" er et banebrydende album af N.W.A, udgivet i 1988. Det udfordrede sociale normer og satte gang i en revolutionær bevægelse med sin ærlige skildring af ghetto-livet og politiske budskaber.',
     path: "straight-outta-compton",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-extraslow",
   },
   {
     image: "../img/album-25.png",
@@ -1081,7 +1081,7 @@ export const inventories = [
     description:
       '"Purple Rain" er Prince and The Revolutions ikoniske album fra 1984. Det fusionerer pop, rock og funk til en eksplosiv lydoplevelse, der fejrer Princes talentfulde sangskrivning, elektriske guitar og uforglemmelige hits som titelnummeret "Purple Rain".',
     path: "purple-rain",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-extraslow",
   },
   {
     image: "../img/album-26.png",
@@ -1103,7 +1103,7 @@ export const inventories = [
     description:
       '"Songs in the Key of Life" er et mesterværk af Stevie Wonder, udgivet i 1976. Det er en musikalsk tour de force, der fletter soul, funk og jazz sammen med dybe og rørende tekster, hvilket resulterer i en uforglemmelig lytteoplevelse.',
     path: "songs-in-the-key-of-life",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-extraslow",
   },
   {
     image: "../img/album-27.png",
@@ -1148,7 +1148,7 @@ export const inventories = [
     description:
       '"The Notorious B.I.G.´s Ready to Die" er et ikonisk hiphop-album fra 1994. Det viser Biggie Smalls´ imponerende rapskills, ærlige tekster og gennemslagskraftige beats, der solidificerede hans status som en af genrens største kunstnere.',
     path: "ready-to-die",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-extraslow",
   },
   {
     image: "../img/album-29.png",
@@ -1170,7 +1170,7 @@ export const inventories = [
     description:
       '"Led Zeppelin IV" er et legendarisk rockalbum fra 1971. Det definerer Led Zeppelins musikalske arv med tidløse hits som "Stairway to Heaven" og udviser deres ekspertise inden for blues, rock og folkemusik.',
     path: "led-zeppelin-iv",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-extraslow",
   },
   {
     image: "../img/album-30.png",
@@ -1192,7 +1192,7 @@ export const inventories = [
     description:
       '"Nashville Skyline" er Bob Dylans niende studiealbum fra 1969. Det er en charmerende og melodiøs udgivelse, der markerer hans overgang til en mere country-inspireret lyd og indeholder klassikere som "Lay Lady Lay" og "Tonight I\'ll Be Staying Here with You".',
     path: "nashville-skyline",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-extraslow",
   },
   {
     image: "../img/album-31.png",
@@ -1215,7 +1215,7 @@ export const inventories = [
     description:
       '"The Rise and Fall of Ziggy Stardust and the Spiders from Mars" er et ikonisk konceptalbum af David Bowie, udgivet i 1972. Det introducerer Ziggy Stardust-karakteren og byder på en blanding af glam rock, science fiction-temaer og Bowie´s unikke stil.',
     path: "ziggy-stardust",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-2xlslow",
   },
   {
     image: "../img/album-32.png",
@@ -1237,7 +1237,7 @@ export const inventories = [
     description:
       '"Electric Ladyland" er et banebrydende album af The Jimi Hendrix Experience, udgivet i 1968. Det udforsker grænserne for rockmusik med Hendrix´s virtuose guitarfærdigheder og eksperimenterende lydlandskaber, der skaber et tidløst og genredefinerende værk.',
     path: "electric-ladyland",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-extraslow",
   },
   {
     image: "../img/album-33.png",
@@ -1281,7 +1281,7 @@ export const inventories = [
     description:
       '"Gunfighter Ballads and Trail Songs" er et ikonisk album af Marty Robbins, udgivet i 1959. Det hylder det vilde vesten med fortællende sange, der fanger dramaet og romantikken i cowboylivet, og cementerer Robbins´ status som en countrylegende.',
     path: "gunfighter-ballads",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-extraslow",
   },
   {
     image: "../img/album-36.jpg",
@@ -1303,7 +1303,7 @@ export const inventories = [
     description:
       '"Whipped Cream and Other Delights" er Herb Alperts Tijuana Brass album fra 1965. Med sin sprudlende og livlige mariachi-stil skaber det en festlig atmosfære fyldt med velkendte hits som "A Taste of Honey" og "Whipped Cream".',
     path: "whipped-cream-and-other-delights",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-2xlslow",
   },
   {
     image: "../img/album-37.png",
@@ -1391,7 +1391,7 @@ export const inventories = [
     description:
       '"Random Access Memories" er Daft Punks banebrydende album fra 2013. Det fusionerer elektronisk musik med liveinstrumenter og gæsteoptrædener, og skaber en nostalgisk og futuristisk lydoplevelse, der fejrer musikkens tidløse kraft.',
     path: "random-access-memory",
-    scrollSpeed: "scroll-speed-slow",
+    scrollSpeed: "scroll-speed-extraslow",
   },
   {
     image: "../img/album-41.png",
@@ -1444,21 +1444,21 @@ export const history = [
     image: "mick-indeholder-intet.png",
     title: "Startede som punk-distributør",
     description:
-      "Mick D'Astugues åbnede for første gang BadstueRocks døre i 1973. Dengang syntes han, at der, i Aarhus, var et hul i markedet, når det kom til den britiske punkscene. Dog var denne genre ikke den eneste, han distri-buerede. Det var eftersigende reggaetoner fra Pablo Augustus' melotron, der oftest mødte dig, når du trådte ind i butikken.",
+      "Mick D'Astugues åbnede for første gang BadstueRocks døre i 1973. Dengang syntes han, at der, i Aarhus, var et hul i markedet ift. den britiske punkscene. Dog var denne genre ikke den eneste, han distribuerede. Dengang var det oftest reggaetoner fra Pablo Augus-tus' melotron, der mødte dig, når du trådte ind i butikken. I dag nyder Mick friheden på efterløn, og hvad livet ellers byder på.",
     alttag: "Grundlæggeren af BadstueRock, Mick D'Astugues I butikken",
   },
   {
     image: "runde-bjorn.png",
     title: "Björn tog over",
     description:
-      "Som Mick selv sagde det, kunne han i 2012 ikke indeholde mere musik. Han var mættet og følte, at han sad fast i en ældre tid, og tiden var derfor inde til at give nøglerne videre. Björn havde siden 2003 arbejdet i butikken og var derfor veloplært og den bedste kandidat til at overtage nøglerne. Dette var også tilfældet, og det skulle vise sig at være en god beslutning.",
+      "Som Mick selv sagde det, kunne han i 2012 ikke indeholde mere musik. Han var mættet og følte, at han sad fast i en ældre tid, og tiden var derfor inde til at give nøglerne videre. Björn havde siden 2003 arbejdet i butikken og var derfor veloplært og den bedste kandidat til at overtage nøglerne. Passionen for analoge musikmedier fortsæt-ter i BadstueRock.",
     alttag: "Nuværende indehaver af BadstueRock, Björn Lydén i butikken",
   },
   {
     image: "facade.png",
     title: "Ny visuel identitet",
     description:
-      "Som det seneste kapitel i BadstueRocks historie, har butikkens visuelle identitet fået et 'overhaul'. Dette gælder logo og især deres digitale tilstedeværelse, hvor vi langt om længe har fået en hjemmeside, der afspejler butikken og fungerer som forlængelse af denne.",
+      "Som det seneste kapitel i BadstueRocks historie, har butikkens visuelle identitet fået et 'overhaul'. Dette gælder logo og især deres digitale tilstedeværelse, hvor vi langt om længe har fået en hjemmeside, der afspejler butikken og fungerer som forlængelse af denne. Det er nu muligt at se BadstueRocks lageroversigt på siden, der hylder butikkens 50 års jubilæum.",
     alttag: "BadstueRocks Facade",
   },
 ];
@@ -1470,15 +1470,15 @@ export const workers = [
     lastName: "Lydén",
     title: "Indehaver",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius iure ex repudiandae veritatis, tempore veniam atque! Unde libero enim consequatur eius, accusamus.",
+      "Björn arbejdede i BadstueRock som studentermedhjælper, inden han i <br> 2012 overtog nøglerne til butikken. <br> Han har, siden barns ben, altid haft <br> en stor interesse for musik.",
   },
   {
     image: "helgen.png",
     firstName: "Thomas",
-    lastName: "Helgén",
+    lastName: "Helgen",
     title: "Butiksassistent",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius iure ex repudiandae veritatis, tempore veniam atque! Unde libero enim consequatur eius, accusamus.",
+      "Butiksassistenten Thomas er helgen selv, når det kommer til viden om <br> musik generelt. Han står altid klar til at velsigne dig med sin ekspertviden om musik og de analoge medier.",
   },
   {
     image: "malle.png",
@@ -1486,40 +1486,40 @@ export const workers = [
     lastName: "Ariél",
     title: "SoMe-Ansvarlig",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius iure ex repudiandae veritatis, tempore veniam atque! Unde libero enim consequatur eius, accusamus.",
+      "Amalies flair for SOME kommer til <br> udtryk på BadstueRocks sociale me-dier. Derpå informerer hun butikkens eksisterende og potentielle brugere <br> om det nyeste nye.",
   },
 ];
 
 export const posts = [
   {
-    id: "CrkyToTM2b5",
+    id: "CtPDNoeMZwM",
     name: "BadstueRock",
-    handle: "badstuerock",
+    handle: "badstuerock_eaaa",
   },
   {
-    id: "Csn1hCcMC4P",
+    id: "CtPDJsHMgkm",
     name: "BadstueRock",
-    handle: "badstuerock",
+    handle: "badstuerock_eaaa",
   },
   {
-    id: "CnCmJ-sM40r",
+    id: "CtPC8exshA-",
     name: "BadstueRock",
-    handle: "badstuerock",
+    handle: "badstuerock_eaaa",
   },
   {
-    id: "CstPheisaeL",
+    id: "CtPCi5dswH9",
     name: "BadstueRock",
-    handle: "badstuerock",
+    handle: "badstuerock_eaaa",
   },
   {
-    id: "Cn4e5aHs41K",
+    id: "CtPCaAcs4Pf",
     name: "BadstueRock",
-    handle: "badstuerock",
+    handle: "badstuerock_eaaa",
   },
   {
-    id: "CfntGF8sM2C",
+    id: "CtPCOi6M2ka",
     name: "BadstueRock",
-    handle: "badstuerock",
+    handle: "badstuerock_eaaa",
   },
 ];
 

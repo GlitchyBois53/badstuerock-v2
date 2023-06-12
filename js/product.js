@@ -220,8 +220,8 @@ function recommendGenerator() {
       inventory.albumTitle != product.albumTitle
     ) {
       id++;
-      recommendContainer.innerHTML += `<a href="product.html">
-                <div class="recommend-item recommend-no-${id}">
+      recommendContainer.innerHTML += `<a href="product.html" class="recommend-no-${id}">
+                <div class="recommend-item">
                     <div class="inventory-card">
                         <div class="inventory-card-id recommend-card-id" id="${inventory.id}">
                             <img class="inventory-image" src="${inventory.image}" alt="${inventory.albumTitle}-image"">

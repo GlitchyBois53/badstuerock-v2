@@ -970,25 +970,17 @@ header div:nth-child(2) img {
   color: var(--black);
 }
 
-.hero-text article h3:nth-child(2) {
+.hero-text article div h3 {
   position: relative;
   width: max-content;
   margin-bottom: 12px;
-}
-
-.hero-text article h3:nth-child(2)::before {
-  content: "";
-  width: 100%;
-  height: 72px;
   background-color: var(--blue);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transform: scaleX(1.03);
+  padding-inline: 7px;
+  transform: translateX(-7px);
+  cursor: pointer;
 }
 
-.hero-text article h3:nth-child(2)::after {
+.hero-text article div h3::after {
   content: "";
   background-image: url(../img/arrow-diagonal.svg);
   width: 44px;
@@ -1000,16 +992,34 @@ header div:nth-child(2) img {
   top: 13.5px;
   transform: rotate(45deg);
   animation: subtle-rotate ease 0.5s forwards;
-  animation-delay: 1s;
 }
 
 @keyframes subtle-rotate {
   0% {
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
   }
   100% {
     transform: rotate(0deg);
   }
+}
+
+@keyframes reverse-subtle-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+.hero-text-btn {
+  width: max-content;
+  padding-right: 80px;
+  cursor: pointer;
+}
+
+.hero-text-btn:hover h3::after {
+  animation: reverse-subtle-rotate ease 0.5s forwards;
 }
 
 .hero-text article h3:nth-child(3) {
@@ -1071,7 +1081,7 @@ header div:nth-child(2) img {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1056px) {
   .hero-text article h2 {
     font-size: 42px;
   }
@@ -1084,11 +1094,11 @@ header div:nth-child(2) img {
     -webkit-text-stroke-width: 1px;
   }
 
-  .hero-text article h3:nth-child(2)::before {
-    height: 38px;
+  .hero-text-btn:hover h3::after {
+    animation: none;
   }
-
-  .hero-text article h3:nth-child(2)::after {
+  
+  .hero-text article div h3::after {
     height: 24px;
     top: 7px;
     animation: none;
@@ -1244,6 +1254,10 @@ header div:nth-child(2) img {
 .scroll-backward {
   -webkit-animation: scrollTextBackward infinite linear;
   animation: scrollTextBackward infinite linear;
+}
+
+.scroll-speed-2xlslow {
+  animation-duration: 198s;
 }
 
 .scroll-speed-extraslow {
@@ -1984,7 +1998,7 @@ i {
   top: -1px;
   background-color: var(--white);
   display: flex;
-  z-index: 2;
+  z-index: 1000;
 }
 
 .filter-open {
@@ -2156,7 +2170,6 @@ i {
     animation: filter-menu-open-mobile 0.5s ease forwards;
     position: fixed;
     top: 0;
-    z-index: 2;
   }
 
   .filter-close {
@@ -2631,11 +2644,11 @@ i {
   display: none;
 }
 
-.recommend-container a:has(.recommend-no-1),
-.recommend-container a:has(.recommend-no-2),
-.recommend-container a:has(.recommend-no-3),
-.recommend-container a:has(.recommend-no-4),
-.recommend-container a:has(.recommend-no-5) {
+.recommend-container .recommend-no-1,
+.recommend-container .recommend-no-2,
+.recommend-container .recommend-no-3,
+.recommend-container .recommend-no-4,
+.recommend-container .recommend-no-5 {
   display: block;
 }
 
@@ -3130,6 +3143,7 @@ i {
   font-size: 14px;
   font-family: var(--secondary-ff);
   font-weight: var(--regular-font);
+  border-radius: 0px;
 }
 
 .contact-input > div > span input::placeholder,
@@ -3300,7 +3314,7 @@ i {
 }
 
 .error-active {
-  opacity: 1!important;
+  opacity: 1 !important;
 }
 
 .word-count-container {
@@ -3318,8 +3332,8 @@ i {
 .word-count {
   font-family: var(--secondary-ff);
   background-color: var(--white);
-  padding: 2px;
-  border: 2px solid var(--black);
+  padding-block: 2px;
+  padding-inline: 4px;
 }
 
 .word-count-max {
