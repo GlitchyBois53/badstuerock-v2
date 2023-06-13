@@ -1,7 +1,7 @@
 /* TEAM */
 
                             
-Contributors: Dennis Kristian Niclasen Russell, Frederik Overgaard Barbre, Lean Hansen
+Contributors: Dennis Kristian Niclasen Russell, Frederik Overgaard Barbre, Lean Kenneth Hansen
                           
 Contact: eaadknr@students.eaaa.dk, eaafob@students.eaaa.dk, eaalkh@students.eaaa.dk
 
