@@ -21,7 +21,7 @@ Name: Bertel Haarder, you know why.
 /* SITE */
 
 
-Last update: 2023/06/12
+Last update: 2023/06/13
                             
 Standards: HTML5, CSS3, JavaScript
                             
