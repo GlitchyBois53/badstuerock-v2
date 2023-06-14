@@ -1,3 +1,5 @@
+
+
 var successWindow = document.getElementById("success-window");
 
 function sendMail() {
