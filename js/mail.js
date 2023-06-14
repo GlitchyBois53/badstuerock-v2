@@ -20,12 +20,10 @@ function sendMail() {
   if (!params.from_name == "") {
     count += 1;
     errorName.classList.remove("error-active");
-    console.log(count + " Name success");
   } else {
     // Error
     errorName.classList.add("error-active");
-    errorName.innerHTML = "type something in name";
-    console.log("type something in name");
+    errorName.innerHTML = "Skriv navn";
   }
   // WE COULD BREAK UP THE IF-STATEMENT TO BE ABLE TO DELIVER ERROR MESSAGES FOR EVERY POSSIBLE ERROR
 
@@ -36,29 +34,23 @@ function sendMail() {
   ) {
     count += 1;
     errorEmail.classList.remove("error-active");
-    console.log(count + " Email success");
   } else {
     // Error
     errorEmail.classList.add("error-active");
-    errorEmail.innerHTML = "Email must include @ '.' and no spaces";
-    console.log("enter valid email");
+    errorEmail.innerHTML = "Skal inkluderer @, '.' & intet mellemrum";
   }
 
   if (!params.message == "") {
     count += 1;
     errorMessage.classList.remove("error-active");
-    console.log(count + " Message success");
   } else {
     // Error
     errorMessage.classList.add("error-active");
-    errorMessage.innerHTML = "Message can't be empty";
-    console.log("Message can't be empty");
+    errorMessage.innerHTML = "Besked kan ikke være tom";
   }
 
   if (count === 3) {
-    console.log(count);
     success();
-    isSubmitted = true;
 
     emailjs
       .send(serviceID, templateID, params)
@@ -92,7 +84,6 @@ textarea.addEventListener("input", ({ currentTarget: target }) => {
   let currentLength = target.value.length;
 
   wordCount.classList.remove("word-count-max");
-  console.log(`max: ${maxLength}, current: ${currentLength}`);
 
   if (currentLength == maxLength) {
     wordCount.classList.add("word-count-max");
