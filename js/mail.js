@@ -17,8 +17,10 @@ function sendMail() {
   var errorEmail = document.getElementById("error-email");
   var errorMessage = document.getElementById("error-textarea");
 
+  // A count that keeps track of validated input fields
   let count = 0;
 
+  // Name validation
   if (!params.from_name == "") {
     count += 1;
     errorName.classList.remove("error-active");
@@ -27,8 +29,10 @@ function sendMail() {
     errorName.classList.add("error-active");
     errorName.innerHTML = "Skriv navn";
   }
+  
   // WE COULD BREAK UP THE IF-STATEMENT TO BE ABLE TO DELIVER ERROR MESSAGES FOR EVERY POSSIBLE ERROR
 
+  // Email validation
   if (
     params.from_email.includes("@") &&
     params.from_email.includes(".") &&
@@ -42,6 +46,7 @@ function sendMail() {
     errorEmail.innerHTML = "Skal inkluderer @, '.' & intet mellemrum";
   }
 
+  // Message validation
   if (!params.message == "") {
     count += 1;
     errorMessage.classList.remove("error-active");
@@ -51,6 +56,7 @@ function sendMail() {
     errorMessage.innerHTML = "Besked kan ikke være tom";
   }
 
+  // Sends email and runs succes screen if all input fields is succesfully validated
   if (count === 3) {
     success();
 
@@ -66,11 +72,13 @@ function sendMail() {
   }
 }
 
+// Event accessible by a DOM element on the succes screen
 function closesuccess() {
   successWindow.classList.add("success-not-active");
   successWindow.classList.remove("success-active");
 }
 
+// Function that runs on line 61.
 function success() {
   // Pop-up der fortæller brugeren at mailen er sendt
   successWindow.classList.remove("success-not-active");
